@@ -18,7 +18,8 @@
   clear: both;
 }
 
-.center { text-align: center }
+.center {
+  text-align: center }
 
 .choice {
   height: 200px;
