@@ -1,0 +1,52 @@
+
+#game {
+  width: 1000px;
+  margin: 200px auto;
+}
+
+.lower {
+  border: solid 2px white;
+  width: 48%;
+  float: left;
+  margin-top: 200px;
+  height: 150px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.center { text-align: center }
+
+.choice {
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin-left: 50px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.green {
+  background-color: #1b5e20;
+}
+
+.red {
+  background-color: #f44336;
+}
+
+.darkbrown {
+  background-color: #3e2723;
+}
+
+.white {
+  color: white;
+}
+
+.results {
+  color: white;
+  font-family: Trebuchet;
+  font-size: 40px
+}

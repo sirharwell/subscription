@@ -1,37 +1,36 @@
-<html>
+<html class="white">
   <head>
-    <link rel="stylesheet" href="./styles.css" />
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
-  <body>
-    <div id="wrapper">
-      <div id="options">
-        <h1 id="title">Super cool service</h1>
-        <h2 id="price">$10.00 /mo</h2>
-        <p>Choose a plan</p>
-        <select id="plan">
-          <option value="monthly">Monthly</option>
-          <option value="quarterly">Quarterly</option>
-          <option value="yearly">Yearly</option>
-        </select>
-        <button id="add">Add To Cart</button>
-      </div>
-      <div id="cart">
-        <h1>Cart</h1>
+  <body class=darkbrown>
+    <h1 class="center">Rock, Paper, Scissors</h1>
+    <hr>
+    <section id="game">
+      <img src="https://nwaber.files.wordpress.com/2012/07/boulder02.jpg" alt="rock" class="choice" id="rock" />
+      <img src="https://orig00.deviantart.net/ef22/f/2009/075/b/3/a_piece_of_paper_by_manutdrules3.png" alt="paper" class="choice" id="paper" />
+      <img src="https://target.scene7.com/is/image/Target/14688361_Alt01" alt="scissors" class="choice" id="scissors" />
+    </section>
+    <div class="clearfix"></div>
+    <section class="lower" id="results">
+      <div>
+        <h3 id="user">User: </h3>
+        <h3 id="computer">Comp: </h3>
         <hr />
-        <button id="empty">Clear Cart</button>
-        <ul id="in_cart">
-        </ul>
-        <h2 id="total">$0</h2>
+        <h3 id="winner">Result: </h3>
       </div>
-    </div>
+    </section>
+    <section class="lower" id="results">
+      <div id="status">
+        <div id="stats">
+          <h3 id="rockStats">Rock: </h3>
+          <h3 id="paperStats">Paper: </h3>
+          <h3 id="scissorStats">Scissors: </h3>
+        </div>
+      </div>
+    </section>
 
-    <script
-      src="http://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous"
-    >
-    </script>
-    <script src="./main.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
